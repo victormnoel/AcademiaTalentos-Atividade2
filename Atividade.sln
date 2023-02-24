@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApp1\ConsoleApplication.csproj", "{20F21C6B-E0BD-4B58-B4E6-CE0BBBE561D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{71D1B307-5603-4F2D-B433-F8A1399C460E} = {71D1B307-5603-4F2D-B433-F8A1399C460E}
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyWork2.SharedProject", "MyWork2.SharedProject\MyWork2.SharedProject.shproj", "{A6BE5109-9215-48A4-AEA0-2B5DCB0E813C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWork2.ClassLibrary", "MyWork2.ClassLibrary\MyWork2.ClassLibrary.csproj", "{71D1B307-5603-4F2D-B433-F8A1399C460E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F21C6B-E0BD-4B58-B4E6-CE0BBBE561D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F21C6B-E0BD-4B58-B4E6-CE0BBBE561D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F21C6B-E0BD-4B58-B4E6-CE0BBBE561D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F21C6B-E0BD-4B58-B4E6-CE0BBBE561D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D1B307-5603-4F2D-B433-F8A1399C460E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D1B307-5603-4F2D-B433-F8A1399C460E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D1B307-5603-4F2D-B433-F8A1399C460E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D1B307-5603-4F2D-B433-F8A1399C460E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB116207-4984-494C-A420-FA6E29509597}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MyWork2.SharedProject\MyWork2.SharedProject.projitems*{71d1b307-5603-4f2d-b433-f8a1399c460e}*SharedItemsImports = 4
+		MyWork2.SharedProject\MyWork2.SharedProject.projitems*{a6be5109-9215-48a4-aea0-2b5dcb0e813c}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
